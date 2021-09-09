@@ -1,0 +1,8 @@
+Name: Rujal Tuladhar
+Id: 154594188
+I have done the workshop in my own using the materials provided by my professor.
+After completing the workshop, I went over some topic which we were completely new to me such as the lambda function and the function object. It was a hard concept to graph. And later, the week we learned about the algorithm library of STL which was easy to grasp.
+I used the concept of vector, list container while doing this assignment in the utilities.cpp, where we create a dynamic vector. The reason behind deallocating the vector created dynamically is to free up the space in the stack and to modify the size of our vector.
+WE cannot use std::list<sdds::Vechicle> as it is not pointing or referring to any data-type which will cause an error.
+In my workshop I have used the try catch method to pass any error occurred while passing the values in the loadData () function.
+ Or we can create a while-loop and an if statement to catch the error in the main function and return the output if any error and keep on continuing until the end of the data reached.

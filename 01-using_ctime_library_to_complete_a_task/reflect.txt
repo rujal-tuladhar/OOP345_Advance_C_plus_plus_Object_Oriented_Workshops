@@ -1,0 +1,15 @@
+//Name: Rujal Tuladhar
+//Student: 154594188
+//Class: OOP345NBB
+//Seneca email: rtuladhar@myseneca.ca
+
+//I have done this workshop 1 on my own only using the materials provided to me by the professor
+
+
+Here reflects some of the new concept that I have learned in this past couple week. 
+The auto keyword, which is used for identifying the data type of the value when the data is returned. Next, I have learned about the extern keyword which is used in the beginning of the variable or function so that they can be accessed by another translation unit, but if you do not use the keyword extern than the data cannot be accessed by other translation unit. I have use extern keyword in declaring g_sysClock in my workshop 1.
+I was having an issue with memory allocation, and I fixed the issue by implementing the copy constructor and assignment operator.
+To display the output in correct format as suggested I used the <iomnaip> library to adjust the space and text as required. I have used a new variable type called static which will be called at the compile-time in front of the variable called counter in my workshop. Static variable will exist throughout the lifetime of the program, this is an example from my code for the implementation of static keyword ‘static int counter = 0’.
+The issue I had, and I was stuck for quite some time was that I forget to initialize the extern g_sysClock and I was having a linking error. I fix that issue by initializing the g_sysClock variable in the event.cpp file. 
+The quiz 1 was easy and I am looking forward to learning more about the OOP concepts.
+

@@ -1,0 +1,27 @@
+//Name: Rujal Tuladhar
+//email: rtuladhar@myseneca.ca
+//id: 154594188
+//I have done this work using only the notes provided by the profesoor
+
+
+In this workshop I have finally understood the concept of aggregation and composition and when to use them.
+I have used these functions in my workshop as the main contain the implementation of these function
+
+Both have a relation with the classes
+while as composition is implemented by direct containment
+Object of the class is owned by object of owning class and object using this method cannot exist on its own
+In simple terms object has another object.
+For example:
+If the delivery system is not working, the restaurant can still make orders, thus the restaurant has an aggregation of the
+delivery and if a company have several departments and if the company closes all its departments
+will no longer exist. Thus, company has a composition of departments.
+In the other hand aggregation has an indirect containment using pointers, object is standalone.
+Object is standalone, object can exist even if the object class is dead.
+
+Also the copy function is used to initialize a class by making a copy of an object in the same class.
+Move function is used to move ownership of the resources from one object to another.
+
+
+In aggregation the copy function is used to copy one class to another existing class.
+Move function is used to move ownership of the resources from one object to another.
+

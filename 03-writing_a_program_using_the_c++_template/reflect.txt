@@ -1,0 +1,9 @@
+Name: Rujal Tuladhar
+Seneca id: 154594188
+Seneca email: rtuladhar@myseneca.ca
+I have done this workshop on my own using the material provided by the professor.
+
+I found it confusing for the set_summable.h part where we check the keys and only add the value if they have the same key. This assignment was really confusing as there was specialization template and polymorphism involved had to make a lot of effort to finally get my code running.
+The template specialization for the += operator is there to make sure that the operator overloading will display a different version of the value with a 'comma' in between the values.
+We don’t' need to specialize the initial value for the summation as the value we are working with might be a string or number so, if we specialize the function, we don't know the datatype it is going to get hold so it is not practical.
+The static variable is always initialized outside the class so that other classes can have access to the variable. In the workshop we use the static variable for defining the minimum field and the initial value for the value.

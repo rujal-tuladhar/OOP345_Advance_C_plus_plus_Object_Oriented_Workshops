@@ -1,0 +1,13 @@
+//Name:Rujal Tuladhar
+//email: rtuladhar@myseneca.ca
+
+This assignment was tricky compared to the previous one as there was trying to catch and template and lambda function involved.
+The difficult part as usual was to check and find the errors. I have taken the help from the course lessons and YouTube videos for doing this workshop.
+
+A lambda basically is a function just defined with a shorter syntax. Function is implemented when you provide several overloads to distinguish between the arguments.
+
+Function always create complexity in a code to make a function of member variables.
+To do that, we can use a different situation as per the value received.
+We can do that by creating a duplicate value as a base class and making Movie and Book as its child class to avoid duplicate logic.
+
+We cannot remove the default constructor as it is used while creating our constructor. When there is a custom constructor. While we runt the code there need to be a detailed constructor created, so we need different constructor to initialize all member variables.

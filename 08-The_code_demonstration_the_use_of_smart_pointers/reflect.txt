@@ -1,0 +1,19 @@
+//Name- Rujal Tuladhar
+//id - 154594188
+//email - rtuladhar@myseneca.ca
+//I have done this workshop on my own using the notes provided by the professor
+
+We have used the raw pointers and smart pointer to calculate the add the values in the for-loop.
+The advantage of using the smart pointer is that it manages the deletion of the memory from the heap automatically when we forget to delete after the allocation. Foe example in our workshop 
+The mergeSmart function have made the use of the smart pointer while allocating the memory in the heap 
+Example
+Std::unique_ptr<Product> value(new Product(desc[i].desc, price[j].price));
+
+The difference between the raw pointers and smart pointer in my code is during the allocation and deletion of the object memory in the heap.
+The raw pointer is allocated using any normal pointer :
+Product* value = new Product(desc[i].desc, price[j].price);
+While using the smart pointer we need to allocate the memory in the heap either using the unique_ptr or shared_ptr keyword.
+Another thing that you can notice is the I have not deleted the allocated memory for the smart pointers as it manages the memory by deleting the memory in the heap automatically.
+
+
+

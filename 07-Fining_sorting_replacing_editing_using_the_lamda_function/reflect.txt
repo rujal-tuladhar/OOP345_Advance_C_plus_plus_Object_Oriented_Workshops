@@ -1,0 +1,39 @@
+//Rujal Tuladhar
+//id: 154594188
+//email – rtuladhar@myseneca.ca
+//I have done this workshop on my own by using only the material provided by my professor.
+This workshop 7 was a lot helpful and the lambda expression which I found really difficult to understand finally started to make sense as I have implemented them along with the STL algorithm methods.
+
+At first to display the output I have used the for each statement in my code to print the values from the vector sequentially
+
+for each(s.begin(), s.end(), [=](Song ex) {cout << ex<<endl; });
+
+For sorting I have used the function sort from the STL library which sorts the elements in the ascending order according to the field we want.
+In the workshop I have made three possible sorting option 
+
+example for sort by title:
+std::sort(s.begin(), s.end(), [](Song first, Song second) {return first.m_title < second.m_title; });
+
+I have used any_of to select the name of the artist wherever found in the m_artist element and return it using lamda function.
+
+return std::any_of(s.begin(), s.end(), [&the_artist](const Song& artist) {return the_artist == artist.m_artist; });
+
+To remove the string 'none' from the member m_album and replace it with an empty string I have used the transform method. Where we need to first select the filed that we wnat to change than in the third parameter we put the changed value after returning form the lambda function 
+std::transform(s.begin(), s.end(), s.begin(), [=](Song& clean_song) {if (clean_song.m_album == "[None]") clean_song.m_album = ""; { return clean_song;  } });
+
+
+To display only the column where the artist is Sia. I have used the copy_if statement from the algorithm where first we define a second container and copy the value to the second container if the condition of lambda expression is true. At the end we return the value of the second container.
+std::copy_if(s.begin(), s.end(), back_inserter(s2), [&the_name](const Song& the_artist) {return the_name == the_artist.m_artist; });
+
+
+2.
+
+There is a lot of advantage using the STL algorithm as we can integrate the lambda expression along with the algorithm to form just a line of code. It also increases the speed of the compilation and saves me time as I don’t need to implement manual loops for each and every step.
+
+
+3.
+
+We can create an exception handling scenario where we first define the 3 options for the sort as enum {title, album, length}. We create a try catch block if the user does not enter the correct value an exception will be thrown to the user if the user does not math the constant value of the enum.
+
+
+

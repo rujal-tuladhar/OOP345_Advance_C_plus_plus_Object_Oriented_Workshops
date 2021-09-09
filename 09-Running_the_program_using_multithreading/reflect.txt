@@ -1,0 +1,22 @@
+//Name: Rujal Tuladhar
+//Id: 154594188
+//email: rtuladhar@myseneca.ca
+//I have done this workshop9 on my own using the notes provided by the professor
+
+This week I learned about the concept of the multithreading which is used in the scenario where we must perform huge calculation of the data.
+The calculation of such huge size can be really time consuming. In such case the task can be divided into several chunks and execute the divided task simultaneously.
+The multithreading is only practical to use in heavy intensive task such as rendering video, game development etc.
+
+1.
+It was recap for me when doing the workshop related to the binary files. Binary file is return in binary language which is in encrypted format. In this workshop we have implemented the following code in our workshop to open and read the file in the binary foramt
+ifstream the_file (file, ios::binary | ios::in);
+ofstream a_file(file,ios::binary | ios::out);
+Using the binary file, it is easy to access and edit the file compared to txt as you have more access and freedom to move around the file using the binary file.
+
+2.
+
+Bind method is used when the function is used without changing the parameters, 
+It also reduces the code repetition, and the bind reduces the code size and make it easier to read. The bind is used when we have many functions with the range, and we can put all those function in a parameter of bind function using the lambda function or the functor .
+
+3. 
+Multi-threading is a useful feature in c++ when it comes to calculating large amount of data. The task to be done can be broken down into chunks and start to process all the data simultaneously. In this workshop I have taken a binary file and divided them eventually into 4 section and encrypted the file simultaneously and synchronize at the end using the join keyword.
